@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admybin.admybin.SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/admybin"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/admybin"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

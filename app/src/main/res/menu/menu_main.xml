@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search1"
+        android:title="Search"
+        appcompat:showAsAction="always|collapseActionView"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        />
+    <!-- Search / will display always -->
+
+
+    <!-- refresh -->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        android:title="Refresh"
+        appcompat:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        appcompat:showAsAction="ifRoom" />
+
+
+</menu>

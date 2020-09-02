@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorLimeGreen">#32CD32</color>
+    <color name="colorSeaGreen">#2E8B57</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentLime">#8032CD32</color>
+    <color name="colorTransparentSea">#E62E8B57</color>
+    <color name="colorBorder">#DDDDDD</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorMediumSeaGreen">#3CB371</color>
+    <color name="colorDarkGray">#A9A9A9</color>
+    <color name="colorTransparentMSea">#CC3CB371</color>
+
+</resources>

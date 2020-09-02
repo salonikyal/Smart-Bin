@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMediumSeaGreen</item>
+        <item name="colorPrimaryDark">@color/colorSeaGreen</item>
+        <item name="colorAccent">@color/colorSeaGreen</item>
+        <item name="colorButtonNormal">@color/colorSeaGreen</item>
+        <item name="android:statusBarColor">@color/colorSeaGreen</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimaryDark">@color/colorSeaGreen</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/colorLimeGreen</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="AppTheme">
+        <item name="windowActionBarOverlay">false</item>
+        <item name="colorPrimary">@color/colorLimeGreen</item>
+    </style>
+
+    <style name="CustomTheme.Dialog" parent="Theme.AppCompat.Light.Dialog" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="TabText">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>
